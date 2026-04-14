@@ -82,7 +82,9 @@ plt.show()
 
 ### Results
 
-![Visualisation of 7-day rolling average and daily new cases](images/Daily_New_Covid_Cases_in_Greece_with_7_day_Rolling_Average.png) *Line plot visualizing the daily new cases with a seven-day rolling average and the raw daily cases*
+![Visualisation of 7-day rolling average and daily new cases](images/Daily_New_Covid_Cases_in_Greece_with_7_day_Rolling_Average.png) 
+
+*Line plot visualizing the daily new cases with a seven-day rolling average and the raw daily cases*
 
 ### Insights
 
@@ -120,7 +122,7 @@ plt.show()
 
 ### Insights
 
--The highest intensity months, defined as those averaging over 1,000 daily cases, encapsulate the major waves. November stands out as the primary peak, recording the absolute highest average at approximately 2,150 cases, followed closely by December with an average of about 1,150 cases. The spring wave of 2021 is also evident in this category, with April peaking at around 1,400 cases, supported by consistently high averages in both February and March (ranging between 1,100 and 1,150 cases).
+-The highest intensity months, defined as those averaging over 1,000 daily cases, encapsulate the major waves. November stands out as the primary peak, recording the absolute highest average at approximately 2,150 cases, followed closely by December with an average of about 1,150 cases. The spring wave is also evident in this category, with April peaking at around 1,400 cases, supported by consistently high averages in both February and March (ranging between 1,100 and 1,150 cases).
 
 -A period of moderate intensity, marked by averages between 500 and 1,000 daily cases, typically serves as a transitional zone between the waves. October ($\approx 550$ cases) signals the distinct beginning of the seasonal surge after the summer. The post-peak decline is represented by January ($\approx 600$ cases) and May (just under 1,000 cases), where cases remain substantial but are visibly falling from their peaks.
 
@@ -166,35 +168,35 @@ plt.show()
 
 Throughout this project, I deepened my understanding of time-series analysis and improved my technical skills in Python, especially in data cleaning, processing, and visualization. Here are a few specific things I learned:
 
--Advanced Python Usage: Working with Pandas for data manipulation and Seaborn/Matplotlib for visualizations helped me analyze real Covid-19 data efficiently and create clear, informative plots.
+-**Advanced Python Usage:** Working with Pandas for data manipulation and Seaborn/Matplotlib for visualizations helped me analyze real Covid-19 data efficiently and create clear, informative plots.
 
--Data Cleaning & Outlier Handling: I learned the importance of preprocessing steps such as applying rolling averages, removing outliers using z-scores, and preparing time-indexed datasets for reliable analysis.
+-**Data Cleaning & Outlier Handling:** I learned the importance of preprocessing steps such as applying rolling averages, removing outliers using z-scores, and preparing time-indexed datasets for reliable analysis.
 
--Time-Series Insights & Forecasting: Implementing techniques like seasonal grouping and Exponential Smoothing gave me hands-on experience in understanding trends over time and building short-term forecasts with measurable accuracy.
+-**Time-Series Insights & Forecasting:** Implementing techniques like seasonal grouping and Exponential Smoothing gave me hands-on experience in understanding trends over time and building short-term forecasts with measurable accuracy.
 
 # Insights
 
 Throughout this project, I significantly improved my data analysis skills and deepened my understanding of epidemiological data. Working with real Covid-19 case data helped me strengthen both my technical and analytical abilities. Here are a few key things I learned:
 
--Time-Series Analysis Techniques: I became comfortable applying rolling averages, detecting outliers with statistical methods, and preparing data for forecasting. These techniques allowed me to reveal underlying trends that daily case counts alone cannot show.
+-**Time-Series Analysis Techniques:** I became comfortable applying rolling averages, detecting outliers with statistical methods, and preparing data for forecasting. These techniques allowed me to reveal underlying trends that daily case counts alone cannot show.
 
--Data Cleaning & Preparation: I learned how essential it is to clean and preprocess real-world datasets. Handling missing values, removing outliers, and structuring the data properly were crucial steps before producing any reliable visualization or forecast.
+-**Data Cleaning & Preparation:** I learned how essential it is to clean and preprocess real-world datasets. Handling missing values, removing outliers, and structuring the data properly were crucial steps before producing any reliable visualization or forecast.
 
--Forecasting Fundamentals: By implementing Exponential Smoothing, I gained practical experience in time-series forecasting and evaluating model accuracy using metrics such as MAE, MSE, and MAPE.
+-**Forecasting Fundamentals:** By implementing Exponential Smoothing, I gained practical experience in time-series forecasting and evaluating model accuracy using metrics such as MAE, MSE, and MAPE.
 
--Effective Visualization: Through Seaborn and Matplotlib, I improved at designing clear and informative plots that communicate trends, seasonality, and differences between actual and predicted data.
+-**Effective Visualization:** Through Seaborn and Matplotlib, I improved at designing clear and informative plots that communicate trends, seasonality, and differences between actual and predicted data.
 
 # Challenges I Faced
 
 This project presented several challenges that ultimately strengthened my analytical skills and improved my understanding of epidemiological data:
 
--Data Volatility & Noise: COVID-19 daily case counts in Greece fluctuate significantly, making it difficult to identify clear patterns. I had to carefully smooth the data using rolling averages while ensuring I did not distort the underlying trends.
+-**Data Volatility & Noise:** COVID-19 daily case counts in Greece fluctuate significantly, making it difficult to identify clear patterns. I had to carefully smooth the data using rolling averages while ensuring I did not distort the underlying trends.
 
--Choosing Appropriate Smoothing Windows: Determining whether a 7-day rolling average or the raw daily counts conveyed insights more accurately was not always straightforward. It required experimenting with different window sizes and comparing how each transformation affected the visibility of trends.
+-**Choosing Appropriate Smoothing Windows:** Determining whether a 7-day rolling average or the raw daily counts conveyed insights more accurately was not always straightforward. It required experimenting with different window sizes and comparing how each transformation affected the visibility of trends.
 
--Dealing with Missing or Irregular Entries: Real-world epidemiological data often contain gaps, irregular reporting days, or sudden spikes due to batch updates. Handling these inconsistencies was essential to avoid misleading conclusions.
+-**Dealing with Missing or Irregular Entries:** Real-world epidemiological data often contain gaps, irregular reporting days, or sudden spikes due to batch updates. Handling these inconsistencies was essential to avoid misleading conclusions.
 
--Balancing Detail With Interpretability: The dataset contained many potential metrics—daily cases, rolling averages, cumulative counts, etc. Deciding which indicators to highlight in the final analysis, without overwhelming the reader, required thoughtful planning.
+-**Balancing Detail With Interpretability:** The dataset contained many potential metrics—daily cases, rolling averages, cumulative counts, etc. Deciding which indicators to highlight in the final analysis, without overwhelming the reader, required thoughtful planning.
 
 # Conclusion
 
